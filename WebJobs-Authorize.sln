@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28606.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{D96FC724-6F6E-400E-BCA9-21A8FD44CA1C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DarkLoop.WebJobs.Authorize", "src\DarkLoop.WebJobs.Authorize\DarkLoop.WebJobs.Authorize.csproj", "{7977AA92-08FB-4AAB-900D-2FA389C6D365}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{051D16F8-54BB-482B-B2A9-47E2DA89E6DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DarkLoop.WebJobs.Authorize.Tests", "test\DarkLoop.WebJobs.Authorize.Tests\DarkLoop.WebJobs.Authorize.Tests.csproj", "{92FBF66C-BC01-4FCE-B2D4-EE104EEB2E2C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7977AA92-08FB-4AAB-900D-2FA389C6D365}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7977AA92-08FB-4AAB-900D-2FA389C6D365}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7977AA92-08FB-4AAB-900D-2FA389C6D365}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7977AA92-08FB-4AAB-900D-2FA389C6D365}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92FBF66C-BC01-4FCE-B2D4-EE104EEB2E2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92FBF66C-BC01-4FCE-B2D4-EE104EEB2E2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92FBF66C-BC01-4FCE-B2D4-EE104EEB2E2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92FBF66C-BC01-4FCE-B2D4-EE104EEB2E2C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7977AA92-08FB-4AAB-900D-2FA389C6D365} = {D96FC724-6F6E-400E-BCA9-21A8FD44CA1C}
+		{92FBF66C-BC01-4FCE-B2D4-EE104EEB2E2C} = {051D16F8-54BB-482B-B2A9-47E2DA89E6DB}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {546E3A6C-060C-4630-BEEE-46A1F8715347}
+	EndGlobalSection
+EndGlobal
