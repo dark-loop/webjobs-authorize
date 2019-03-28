@@ -9,7 +9,7 @@
     <Description>Allows same AuthorizeAttribute behavior for Azure Functions</Description>
   </PropertyGroup>
 
-  <Import Condition=" '$(PackProject)' == 'true' " Project="..\..\.build\release.props" />
+  <Import Condition=" '$(Configuration)' == 'Release' " Project="..\..\.build\release.props" />
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="2.2.0" />
