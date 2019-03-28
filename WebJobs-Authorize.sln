@@ -9,11 +9,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DarkLoop.WebJobs.Authorize"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{051D16F8-54BB-482B-B2A9-47E2DA89E6DB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DarkLoop.WebJobs.Authorize.Tests", "test\DarkLoop.WebJobs.Authorize.Tests\DarkLoop.WebJobs.Authorize.Tests.csproj", "{92FBF66C-BC01-4FCE-B2D4-EE104EEB2E2C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DarkLoop.WebJobs.Authorize.Tests", "test\DarkLoop.WebJobs.Authorize.Tests\DarkLoop.WebJobs.Authorize.Tests.csproj", "{92FBF66C-BC01-4FCE-B2D4-EE104EEB2E2C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".build", ".build", "{1CED3FA2-C2EF-4A83-A9D6-B5193EF46B2C}"
 	ProjectSection(SolutionItems) = preProject
-		.build\realease.props = .build\realease.props
+		.build\release.props = .build\release.props
 	EndProjectSection
 EndProject
 Global
