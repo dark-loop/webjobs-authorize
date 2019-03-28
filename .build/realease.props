@@ -1,6 +1,8 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
+    <Authors>Arturo Martinez</Authors>
+    <PackageId>DarkLoop.WebJobs.Authorize.Preview</PackageId>
     <Version>0.0.1-preview</Version>
     <RepositoryUrl>https://github.com/dark-loop/webjobs-authorize</RepositoryUrl>
     <RepositoryType>Git</RepositoryType>
