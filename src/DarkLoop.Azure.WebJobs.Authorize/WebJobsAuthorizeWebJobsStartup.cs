@@ -1,14 +1,14 @@
-﻿using DarkLoop.WebJobs.Authorize;
-using DarkLoop.WebJobs.Authorize.Bindings;
-using DarkLoop.WebJobs.Authorize.Filters;
-using DarkLoop.WebJobs.Authorize.Security;
+﻿using DarkLoop.Azure.WebJobs.Authorize;
+using DarkLoop.Azure.WebJobs.Authorize.Bindings;
+using DarkLoop.Azure.WebJobs.Authorize.Filters;
+using DarkLoop.Azure.WebJobs.Authorize.Security;
 using Microsoft.Azure.WebJobs;
 using Microsoft.Azure.WebJobs.Host.Bindings;
 using Microsoft.Azure.WebJobs.Hosting;
 using Microsoft.Extensions.DependencyInjection;
 
 [assembly: WebJobsStartup(typeof(WebJobsAuthorizeWebJobsStartup))]
-namespace DarkLoop.WebJobs.Authorize
+namespace DarkLoop.Azure.WebJobs.Authorize
 {
     class WebJobsAuthorizeWebJobsStartup : IWebJobsStartup
     {

@@ -1,14 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using DarkLoop.WebJobs.Authorize.Bindings;
-using DarkLoop.WebJobs.Authorize.Filters;
+using DarkLoop.Azure.WebJobs.Authorize.Bindings;
+using DarkLoop.Azure.WebJobs.Authorize.Filters;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.Azure.WebJobs;
 using Microsoft.Azure.WebJobs.Host.Bindings;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace DarkLoop.WebJobs.Authorize.Security
+namespace Microsoft.Extensions.DependencyInjection
 {
     public static class AuthorizationExtensions
     {

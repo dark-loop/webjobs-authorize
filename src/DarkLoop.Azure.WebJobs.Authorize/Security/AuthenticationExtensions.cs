@@ -9,7 +9,7 @@ using Microsoft.Azure.WebJobs.Extensions.Http;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.IdentityModel.Tokens;
 
-namespace DarkLoop.WebJobs.Authorize.Security
+namespace Microsoft.Extensions.DependencyInjection
 {
     public static class AuthenticationExtensions
     {

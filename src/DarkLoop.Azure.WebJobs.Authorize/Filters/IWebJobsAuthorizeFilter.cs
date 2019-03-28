@@ -1,7 +1,7 @@
 ﻿using System.Threading.Tasks;
-using DarkLoop.WebJobs.Authorize.Security;
+using DarkLoop.Azure.WebJobs.Authorize.Security;
 
-namespace DarkLoop.WebJobs.Authorize.Filters
+namespace DarkLoop.Azure.WebJobs.Authorize.Filters
 {
     interface IWebJobsAuthorizeFilter
     {

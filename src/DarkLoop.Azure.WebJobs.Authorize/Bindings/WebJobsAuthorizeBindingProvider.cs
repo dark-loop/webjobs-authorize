@@ -3,16 +3,18 @@ using System.Linq;
 using System.Net.Http;
 using System.Reflection;
 using System.Threading.Tasks;
-using DarkLoop.WebJobs.Authorize.Filters;
+using DarkLoop.Azure.WebJobs.Authorize.Filters;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Azure.WebJobs;
 using Microsoft.Azure.WebJobs.Host.Bindings;
+using Microsoft.Extensions.Logging;
 
-namespace DarkLoop.WebJobs.Authorize.Bindings
+namespace DarkLoop.Azure.WebJobs.Authorize.Bindings
 {
     internal class WebJobsAuthorizeBindingProvider : IBindingProvider
     {
+        private readonly ILogger _log;
         private readonly IWebJobsAuthorizationFilterIndex _filtersIndex;
 
         public WebJobsAuthorizeBindingProvider(IWebJobsAuthorizationFilterIndex filterIndex)
@@ -28,6 +30,7 @@ namespace DarkLoop.WebJobs.Authorize.Bindings
             if (paramType == typeof(HttpRequest) || paramType == typeof(HttpRequestMessage))
             {
                 await this.ProcessAuthorizationAsync(context.Parameter);
+                Console.WriteLine($"Processed auth info for {context.Parameter.Member.Name}.");
             }
 
             return null;

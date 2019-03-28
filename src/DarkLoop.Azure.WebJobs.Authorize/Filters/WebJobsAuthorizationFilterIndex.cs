@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.Azure.WebJobs;
 
-namespace DarkLoop.WebJobs.Authorize.Filters
+namespace DarkLoop.Azure.WebJobs.Authorize.Filters
 {
     class WebJobAuthorizationFilterIndex : IWebJobsAuthorizationFilterIndex
     {

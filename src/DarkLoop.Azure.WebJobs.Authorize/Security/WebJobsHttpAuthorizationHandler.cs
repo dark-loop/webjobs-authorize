@@ -3,13 +3,13 @@ using System.Collections.Generic;
 using System.Net;
 using System.Text;
 using System.Threading.Tasks;
-using DarkLoop.WebJobs.Authorize.Filters;
+using DarkLoop.Azure.WebJobs.Authorize.Filters;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Azure.WebJobs.Host;
 
-namespace DarkLoop.WebJobs.Authorize.Security
+namespace DarkLoop.Azure.WebJobs.Authorize.Security
 {
     internal class WebJobsHttpAuthorizationHandler : IWebJobsHttpAuthorizationHandler
     {

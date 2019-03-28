@@ -15,7 +15,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\src\DarkLoop.WebJobs.Authorize\DarkLoop.WebJobs.Authorize.csproj" />
+    <ProjectReference Include="..\..\src\DarkLoop.Azure.WebJobs.Authorize\DarkLoop.Azure.WebJobs.Authorize.csproj" />
   </ItemGroup>
 
 </Project>

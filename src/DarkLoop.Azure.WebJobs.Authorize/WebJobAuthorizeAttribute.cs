@@ -3,14 +3,15 @@ using System.Linq;
 using System.Net.Http;
 using System.Threading;
 using System.Threading.Tasks;
-using DarkLoop.WebJobs.Authorize.Security;
+using DarkLoop.Azure.WebJobs.Authorize.Security;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Authorization.Infrastructure;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Azure.WebJobs.Host;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Logging;
 
-namespace DarkLoop.WebJobs.Authorize
+namespace DarkLoop.Azure.WebJobs.Authorize
 {
     [AttributeUsage(AttributeTargets.Class | AttributeTargets.Method, AllowMultiple = true, Inherited = true)]
     public class WebJobAuthorizeAttribute : FunctionInvocationFilterAttribute, IFunctionInvocationFilter, IAuthorizeData
@@ -55,17 +56,13 @@ namespace DarkLoop.WebJobs.Authorize
 
         private HttpContext GetHttpContext(FunctionExecutingContext context)
         {
-            var requestOrMessage = context.Arguments.Values.FirstOrDefault(x =>
-            {
-                var type = x.GetType();
-                return type == typeof(HttpRequest) || type == typeof(HttpRequestMessage);
-            });
+            var requestOrMessage = context.Arguments.Values.FirstOrDefault(x => x is HttpRequest || x is HttpRequestMessage);
 
-            if(requestOrMessage is HttpRequest request)
+            if (requestOrMessage is HttpRequest request)
             {
                 return request.HttpContext;
             }
-            else if(requestOrMessage is HttpRequestMessage message)
+            else if (requestOrMessage is HttpRequestMessage message)
             {
                 return message.Properties[nameof(HttpContext)] as HttpContext;
             }
