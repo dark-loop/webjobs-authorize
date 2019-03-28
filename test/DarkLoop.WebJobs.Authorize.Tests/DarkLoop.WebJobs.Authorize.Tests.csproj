@@ -4,6 +4,12 @@
     <TargetFramework>netcoreapp2.1</TargetFramework>
 
     <IsPackable>false</IsPackable>
+
+    <SignAssembly>true</SignAssembly>
+
+    <DelaySign>false</DelaySign>
+
+    <AssemblyOriginatorKeyFile>dl-sftwr-sn-key.snk</AssemblyOriginatorKeyFile>
   </PropertyGroup>
 
   <ItemGroup>
