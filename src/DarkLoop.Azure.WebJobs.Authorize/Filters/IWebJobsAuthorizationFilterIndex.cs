@@ -3,7 +3,7 @@ using System.Reflection;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.Azure.WebJobs;
 
-namespace DarkLoop.WebJobs.Authorize.Filters
+namespace DarkLoop.Azure.WebJobs.Authorize.Filters
 {
     interface IWebJobsAuthorizationFilterIndex
     {

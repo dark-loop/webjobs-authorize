@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Azure.WebJobs.Host;
 
-namespace DarkLoop.WebJobs.Authorize.Security
+namespace DarkLoop.Azure.WebJobs.Authorize.Security
 {
     internal interface IWebJobsHttpAuthorizationHandler
     {

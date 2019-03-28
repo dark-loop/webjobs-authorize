@@ -2,14 +2,14 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using DarkLoop.WebJobs.Authorize.Security;
+using DarkLoop.Azure.WebJobs.Authorize.Security;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Authorization.Policy;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace DarkLoop.WebJobs.Authorize.Filters
+namespace DarkLoop.Azure.WebJobs.Authorize.Filters
 {
     internal class WebJobsAuthorizeFilter : IWebJobsAuthorizeFilter
     {

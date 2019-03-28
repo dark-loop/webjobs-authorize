@@ -5,16 +5,16 @@ VisualStudioVersion = 16.0.28606.126
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{D96FC724-6F6E-400E-BCA9-21A8FD44CA1C}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DarkLoop.WebJobs.Authorize", "src\DarkLoop.WebJobs.Authorize\DarkLoop.WebJobs.Authorize.csproj", "{7977AA92-08FB-4AAB-900D-2FA389C6D365}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{051D16F8-54BB-482B-B2A9-47E2DA89E6DB}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DarkLoop.WebJobs.Authorize.Tests", "test\DarkLoop.WebJobs.Authorize.Tests\DarkLoop.WebJobs.Authorize.Tests.csproj", "{92FBF66C-BC01-4FCE-B2D4-EE104EEB2E2C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".build", ".build", "{1CED3FA2-C2EF-4A83-A9D6-B5193EF46B2C}"
 	ProjectSection(SolutionItems) = preProject
 		.build\release.props = .build\release.props
 	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DarkLoop.Azure.WebJobs.Authorize", "src\DarkLoop.Azure.WebJobs.Authorize\DarkLoop.Azure.WebJobs.Authorize.csproj", "{BE7C5884-53F6-41D0-9CC5-FE918E9D3712}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DarkLoop.Azure.WebJobs.Authorize.Tests", "test\DarkLoop.Azure.WebJobs.Authorize.Tests\DarkLoop.Azure.WebJobs.Authorize.Tests.csproj", "{FBD8D1E5-E3B5-4870-A1E9-C317F43053BD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -22,21 +22,21 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{7977AA92-08FB-4AAB-900D-2FA389C6D365}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7977AA92-08FB-4AAB-900D-2FA389C6D365}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7977AA92-08FB-4AAB-900D-2FA389C6D365}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7977AA92-08FB-4AAB-900D-2FA389C6D365}.Release|Any CPU.Build.0 = Release|Any CPU
-		{92FBF66C-BC01-4FCE-B2D4-EE104EEB2E2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{92FBF66C-BC01-4FCE-B2D4-EE104EEB2E2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{92FBF66C-BC01-4FCE-B2D4-EE104EEB2E2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{92FBF66C-BC01-4FCE-B2D4-EE104EEB2E2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE7C5884-53F6-41D0-9CC5-FE918E9D3712}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE7C5884-53F6-41D0-9CC5-FE918E9D3712}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE7C5884-53F6-41D0-9CC5-FE918E9D3712}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE7C5884-53F6-41D0-9CC5-FE918E9D3712}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBD8D1E5-E3B5-4870-A1E9-C317F43053BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBD8D1E5-E3B5-4870-A1E9-C317F43053BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBD8D1E5-E3B5-4870-A1E9-C317F43053BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBD8D1E5-E3B5-4870-A1E9-C317F43053BD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{7977AA92-08FB-4AAB-900D-2FA389C6D365} = {D96FC724-6F6E-400E-BCA9-21A8FD44CA1C}
-		{92FBF66C-BC01-4FCE-B2D4-EE104EEB2E2C} = {051D16F8-54BB-482B-B2A9-47E2DA89E6DB}
+		{BE7C5884-53F6-41D0-9CC5-FE918E9D3712} = {D96FC724-6F6E-400E-BCA9-21A8FD44CA1C}
+		{FBD8D1E5-E3B5-4870-A1E9-C317F43053BD} = {051D16F8-54BB-482B-B2A9-47E2DA89E6DB}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {546E3A6C-060C-4630-BEEE-46A1F8715347}

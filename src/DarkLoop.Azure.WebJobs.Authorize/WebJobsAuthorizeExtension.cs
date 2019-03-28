@@ -1,7 +1,7 @@
 ﻿using Microsoft.Azure.WebJobs.Description;
 using Microsoft.Azure.WebJobs.Host.Config;
 
-namespace DarkLoop.WebJobs.Authorize
+namespace DarkLoop.Azure.WebJobs.Authorize
 {
     [Extension("WebJobsAuthorize")]
     class WebJobsAuthExtension : IExtensionConfigProvider

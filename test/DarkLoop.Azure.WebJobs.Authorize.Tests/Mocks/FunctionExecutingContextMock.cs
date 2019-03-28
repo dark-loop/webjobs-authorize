@@ -5,7 +5,7 @@ using Microsoft.Azure.WebJobs.Host;
 using Microsoft.Extensions.Logging;
 using Moq;
 
-namespace DarkLoop.WebJobs.Authorize.Tests.Mocks
+namespace DarkLoop.Azure.WebJobs.Authorize.Tests.Mocks
 {
     class FunctionExecutingContextMock : Mock<FunctionExecutingContext>
     {

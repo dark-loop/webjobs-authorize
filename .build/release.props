@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <Authors>Arturo Martinez</Authors>
-    <PackageId>DarkLoop.WebJobs.Authorize.Preview</PackageId>
+    <PackageId>DarkLoop.Azure.WebJobs.Authorize.Preview</PackageId>
     <Version>0.0.2-preview</Version>
     <RepositoryUrl>https://github.com/dark-loop/webjobs-authorize</RepositoryUrl>
     <RepositoryType>Git</RepositoryType>

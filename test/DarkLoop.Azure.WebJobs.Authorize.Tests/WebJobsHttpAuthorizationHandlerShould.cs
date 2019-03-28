@@ -1,16 +1,16 @@
 using System;
 using System.Collections.ObjectModel;
 using System.Threading.Tasks;
-using DarkLoop.WebJobs.Authorize.Filters;
-using DarkLoop.WebJobs.Authorize.Security;
-using DarkLoop.WebJobs.Authorize.Tests.Mocks;
+using DarkLoop.Azure.WebJobs.Authorize.Filters;
+using DarkLoop.Azure.WebJobs.Authorize.Security;
+using DarkLoop.Azure.WebJobs.Authorize.Tests.Mocks;
 using FluentAssertions;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Azure.WebJobs.Host;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Moq;
 
-namespace DarkLoop.WebJobs.Authorize.Tests
+namespace DarkLoop.Azure.WebJobs.Authorize.Tests
 {
     [TestClass]
     public class WebJobsHttpAuthorizationHandlerShould

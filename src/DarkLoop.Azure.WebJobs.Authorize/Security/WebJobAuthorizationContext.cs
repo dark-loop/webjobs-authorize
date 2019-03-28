@@ -4,7 +4,7 @@ using System.Text;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
-namespace DarkLoop.WebJobs.Authorize.Security
+namespace DarkLoop.Azure.WebJobs.Authorize.Security
 {
     internal class WebJobAuthorizationContext
     {
