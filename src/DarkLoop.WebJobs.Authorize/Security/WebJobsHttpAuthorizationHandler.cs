@@ -48,6 +48,8 @@ namespace DarkLoop.WebJobs.Authorize.Security
                 }
 
                 SetResponse("Unauthorized", httpContext.Response);
+                
+                // need to make sure function stops executing. At this moment this is the only way.
                 BombFunctionInstance((int)HttpStatusCode.Unauthorized);
             }
 
@@ -66,6 +68,8 @@ namespace DarkLoop.WebJobs.Authorize.Security
                 }
 
                 SetResponse("Forbidden", httpContext.Response);
+
+                // need to make sure function stops executing. At this moment this is the only way.
                 BombFunctionInstance((int)HttpStatusCode.Forbidden);
             }
         }
