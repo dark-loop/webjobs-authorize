@@ -7,15 +7,9 @@
     <Copyright>DarkLoop - All rights reserved</Copyright>
     <Product>WebJobs Authorize</Product>
     <Description>Allows same AuthorizeAttribute behavior for Azure Functions</Description>
-    <RepositoryUrl>https://github.com/dark-loop/webjobs-authorize</RepositoryUrl>
-    <RepositoryType>Git</RepositoryType>
-    <PackageTags>Authorize, Azure Functions</PackageTags>
   </PropertyGroup>
 
-  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
-    <SignAssembly>true</SignAssembly>
-    <AssemblyOriginatorKeyFile>snKey.snk.pfx</AssemblyOriginatorKeyFile>
-  </PropertyGroup>
+  <Import Project="..\..\.build\release.props" Condition=" '$(Configuration)' == 'Release' " />
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="2.2.0" />

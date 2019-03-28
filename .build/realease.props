@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <Version>0.0.1-preview</Version>
+    <RepositoryUrl>https://github.com/dark-loop/webjobs-authorize</RepositoryUrl>
+    <RepositoryType>Git</RepositoryType>
+    <PackageTags>Authorize, Azure Functions</PackageTags>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageIconUrl>https://en.gravatar.com/userimage/22176525/45f25acea686a783e5b2ca172d72db71.png</PackageIconUrl>
+  </PropertyGroup>
+
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>dl-sftwr-sn-key.pfx</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+
+</Project>
