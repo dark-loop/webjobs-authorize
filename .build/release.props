@@ -2,11 +2,11 @@
 
   <PropertyGroup>
     <Authors>Arturo Martinez</Authors>
-    <PackageId>DarkLoop.Azure.WebJobs.Authorize.Preview</PackageId>
-    <Version>0.0.2-preview</Version>
+    <PackageId>DarkLoop.Azure.WebJobs.Authorize</PackageId>
+    <Version>1.0.25-preview</Version>
     <RepositoryUrl>https://github.com/dark-loop/webjobs-authorize</RepositoryUrl>
     <RepositoryType>Git</RepositoryType>
-    <PackageTags>Authorize, Azure Functions</PackageTags>
+    <PackageTags>AuthorizeAttribute, Authorize, Azure Functions</PackageTags>
     <PackageIconUrl>https://en.gravatar.com/userimage/22176525/45f25acea686a783e5b2ca172d72db71.png</PackageIconUrl>
     <SignAssembly>true</SignAssembly>
     <AssemblyOriginatorKeyFile>dl-sftwr-sn-key.snk</AssemblyOriginatorKeyFile>
