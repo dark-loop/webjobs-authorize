@@ -4,6 +4,7 @@
     <Authors>Arturo Martinez</Authors>
     <PackageId>DarkLoop.Azure.WebJobs.Authorize</PackageId>
     <Version>1.0.25-preview</Version>
+    <PackageLicenseUrl>https://github.com/dark-loop/webjobs-authorize/blob/master/LICENSE</PackageLicenseUrl>
     <RepositoryUrl>https://github.com/dark-loop/webjobs-authorize</RepositoryUrl>
     <RepositoryType>Git</RepositoryType>
     <PackageTags>AuthorizeAttribute, Authorize, Azure Functions</PackageTags>
