@@ -85,7 +85,7 @@ public class Functions
 ##
 
 ### Releases
-[![Nuget](https://img.shields.io/nuget/v/DarkLoop.Azure.WebJobs.Authorize.svg?style=flat)](https://www.nuget.org/packages/DarkLoop.Azure.WebJobs.Authorize)
+[![Nuget](https://img.shields.io/nuget/v/DarkLoop.Azure.WebJobs.Authorize.svg)](https://www.nuget.org/packages/DarkLoop.Azure.WebJobs.Authorize)
 
 ### Builds
 ![master build status](https://dev.azure.com/darkloop/DarkLoop%20Core%20Library/_apis/build/status/Open%20Source/WebJobs%20Authorize%20-%20Pack?branchName=master)
