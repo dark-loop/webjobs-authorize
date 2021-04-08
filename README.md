@@ -1,5 +1,5 @@
 # webjobs-authorize
-Bringing AuthorizeAttribute Behavior to Azure Functions v2
+Bringing AuthorizeAttribute Behavior to Azure Functions v2. For v3 compatibility use [functions-authorize](https://github.com/dark-loop/functions-authorize).
 
 It hooks into .NET Core dependency injection container to enable authentication and authorization in the same way  ASP.NET Core does.
 
